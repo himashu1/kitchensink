@@ -19,7 +19,7 @@ public class KitchensinkApplication {
 	}
 	public static void main(String[] args) {
 		SpringApplication app = new SpringApplication(KitchensinkApplication.class);
-		//app.setWebApplicationType(WebApplicationType.SERVLET);
+		app.setWebApplicationType(WebApplicationType.SERVLET);
 		app.run(args);
 	}
 
